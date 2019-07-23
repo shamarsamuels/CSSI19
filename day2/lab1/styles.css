@@ -20,9 +20,8 @@
     justify-content: center;
 }
 
-#flag {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+
+.image {
     width: 20%;
+    height: 100%;
 }
