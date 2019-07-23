@@ -1,0 +1,28 @@
+.header {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: steelblue;
+}
+
+.button {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: steelblue;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 60px;
+    border-color: white;
+}
+
+.button_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#flag {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
