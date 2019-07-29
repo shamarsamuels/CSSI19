@@ -13,3 +13,10 @@
 // limitations under the License.
 
 console.log("script is running...");
+
+const myAlarm = time => `Hey, Mom, wake up! It's ${time}`;
+const momAlarm = time => `Hey, Mom, wake up! It's ${time}`;
+const familyAlarm = (time, person) => `Hey, ${person}, wake up! It's ${time}`;
+const importantAlarm = text => text.toUpperCase();
+const snoozeAlarm = time => `The alarm for ${time} has been changed to ${time + 1}`
+
