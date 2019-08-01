@@ -123,3 +123,5 @@ assert acc.balance == 1100, \
 assert acc2.balance == 500, \
     "Expected 'new acc' balance 500, instead saw %s" % acc.balance
 print("Test 5.2 passed!")
+
+acc.see_transactions()
